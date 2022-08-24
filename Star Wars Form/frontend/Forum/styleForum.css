@@ -1,0 +1,226 @@
+
+    *{
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 14px;
+        font-family: sans-serif;
+        background-color:rgb(59, 59, 59);
+        color:#FEFEFE;
+    }
+
+    a{
+        color:#FF0042;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    h1{
+        font-size:16px;
+        font-weight: bolder;
+    }
+
+    .container{
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .subforum{
+        margin-top:20px;
+    }
+
+    .subforum-title{
+        background-color:#292B2E;
+        padding: 5px;
+        border-radius: 5px;
+        margin:4px;
+    }
+
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 7% 60% 13% 20%;
+    }
+
+    .subforum-column{
+        padding: 10px;
+        margin:4px;
+        border-radius: 5px;
+        background-color:#111314;
+    }
+
+    .subforum-description *{
+        margin-block: 0;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subforum-icon i{
+        font-size: 45px;
+    }
+
+    .subforum-devider{
+        display: none;   
+    }
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+
+    .subforum-devider{
+        display: block;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(190, 190, 190, 0), rgba(255, 255, 255, 0.75), rgba(190, 190, 190, 0));
+    }
+
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 10% 60% 10% 20%;
+    }
+
+    .subforum-icon i{
+        font-size: 35px;
+    }
+
+    html{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    header{
+        margin-inline: 10px;
+    }
+
+    .navbar{
+        display:flex;
+        align-items: center;
+    }
+    .navigation{
+        background-color:orange;
+        padding: 10px;
+        width: 65%;
+        display: inline-block;
+        border-radius: 5px;
+        max-height: 80px;
+        margin-right:10px;
+    }
+
+    .close-icon i{
+        font-size:60px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .nav-list{
+        list-style-type:none;
+        overflow: hidden;
+    }
+
+    .nav-item a{
+        float: right;
+        display:block;
+        text-align: center;
+        margin-inline: 20px;
+        font-size: 20px;
+        padding: 10px;
+        color:#fff;
+    }
+
+    .nav-item a:hover{
+        background-color: rgb(0,0,0,0.1);
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .bar-icon{
+        font-size: 60px;
+        display: inline-block;
+        margin-right:10px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .brand{
+        font-size:60px;
+        display: inline-block;
+        font-family:aquire;
+    }
+
+    
+    .close-icon i{
+        font-size:30px;
+    }
+    
+    .nav-item a{
+        float:left;
+        display:inline;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    .bar-icon{
+        font-size: 30px;
+    }
+
+    .brand{
+        font-size:20px;
+    }
+
+    .search-box{
+        border: solid 1px orange;
+        margin-top: 20px;
+        padding: 40px;
+        display:flex;
+        justify-content: center;
+        box-shadow:1px 2px 3px orange;
+    }
+
+    .search-box select{
+        padding: 10px;
+    }
+
+    .search-box input{
+        padding: 10px;
+    }
+
+    .search-box button{
+        padding: 10px;
+        background-color:#fff;
+        color:#000000;
+    }
+
+    .search-box button:hover{
+        background-color: #000000;
+        color: #fff;
+        box-shadow: 1px 2px 3px #fff;
+    }
+
+    .forum-info{
+        padding: 20px;
+        background-color: #111314;
+    }
+
+    .chart{
+        font-size:20px;
+        font-weight:bold;
+    }
+
+    footer{
+        margin-top: 20px;
+        padding: 20px;
+        background-color:  #52057b;
+        display: block;
+        text-align: center;
+    }
